@@ -10,40 +10,42 @@
 </head>
 
 <body>
-    <div class="top">
-        <div class="top_child_L">
-            <img src="assets/sticker.png" alt="profile-img">
-        </div>
-        <div class="top_child_R">
-            <p>Home</p>
-            <p>About</p>
-            <p>Skills</p>
-            <p>Contact</p>
-        </div>
-    </div>
-
-    <div class="home">
-        <div class="home_child_L">
-            <p id="hey">Hey!!</p>
-            <h2>I'm Saakshi</h2>
-            <p id="desc">I'm a Frontend Developer from India. Currently I'm pursuing my Bachelors of Technoloy in Computer Science and Engineering.</p>
-
-            <hr class="hr_home" />
-            <div class="parent_social">
-                <div class="social_link">
-                    <img src="assets/github.png" class="social_logos" />
-                    <img src="assets/linkedin.png" class="social_logos" />
-                    <img src="assets/leetcode.png" class="social_logos" />
-                    <img src="assets/HackerRank_logo.png" class="social_logos" />
-                </div>
+    <a name="home_page">
+        <div class="top">
+            <div class="top_child_L">
+                <img src="assets/sticker.png" alt="profile-img">
+            </div>
+            <div class="top_child_R">
+                <a href="#home_page">Home</a>
+                <a href="#about_page">About</a>
+                <a href="#skill_page">Skills</a>
+                <a href="#project_page">Project</a>
+                <a href="#contact_page">Contact</a>
             </div>
         </div>
-        <div class="home_child_R">
-            <img src="assets/person.png" alt="image" />
+
+        <div class="home">
+            <div class="home_child_L">
+                <p id="hey">Hey!!</p>
+                <h2>I'm Saakshi</h2>
+                <p id="desc">I'm a Frontend Developer from India. Currently I'm pursuing my Bachelors of Technoloy in Computer Science and Engineering.</p>
+
+                <hr class="hr_home" />
+                <div class="parent_social">
+                    <div class="social_link">
+                        <img src="assets/github.png" class="social_logos" />
+                        <img src="assets/linkedin.png" class="social_logos" />
+                        <img src="assets/leetcode.png" class="social_logos" />
+                        <img src="assets/HackerRank_logo.png" class="social_logos" />
+                    </div>
+                </div>
+            </div>
+            <div class="home_child_R">
+                <img src="assets/person.png" alt="image" />
+            </div>
+
         </div>
-
-
-    </div>
+    </a>
 
 
 
@@ -52,32 +54,38 @@
 
 
     <!-- page2 -->
-
-    <div class="about">
+    <a name="about_page" class="about">
         <div class="about_L">
             <h2>Let's Connect :)</h2>
             <!-- <hr class="about_L_hr"> -->
             <p id="about_L_desc">If you would love to build something (or talk on any) topic you can find me here :)</p>
-            <table border="1px" class="about_L_table">
+            <table class="about_L_table">
                 <tr>
-                    <td>Email</td>
-                    <td><a href="mailto:saakshibhandari27@gmail.com">saakshibhandari27@gmail.com</a></td>
+                    <td class="about_td">Email</td>
+                    <td class="about_">-</td>
+                    <td class="about_td"><a href="mailto:saakshibhandari27@gmail.com" target="_blank">saakshibhandari27@gmail.com</a></td>
                 </tr>
                 <tr>
-                    <td>Linkedin</td>
-                    <td><a href="https://www.linkedin.com/in/saakshi-b6918720b/">click here</a></td>
+                    <td class="about_td">Linkedin</td>
+                    <td class="about_">-</td>
+                    <td class="about_td"><a href="https://www.linkedin.com/in/saakshi-b6918720b/" target="_blank">click here</a></td>
                 </tr>
                 <tr>
-                    <td>Twitter</td>
-                    <td><a href="https://www.linkedin.com/in/saakshi-b6918720b/">click here</a></td>
+                    <td class="about_td">Twitter</td>
+                    <td class="about_">-</td>
+                    <td class="about_td"><a href="https://www.linkedin.com/in/saakshi-b6918720b/" target="_blank">click here</a></td>
                 </tr>
                 <tr>
-                    <td>Instagram</td>
-                    <td><a href="https://www.linkedin.com/in/saakshi-b6918720b/">click here</a></td>
+                    <td class="about_td">Instagram</td>
+                    <td class="about_">-</td>
+                    <td class="about_td"><a href="https://www.linkedin.com/in/saakshi-b6918720b/" target="_blank">click here</a></td>
                 </tr>
 
             </table>
-            <!-- <img src="assets/coffee_.png" alt="coffee-png" /> -->
+
+            <img src="assets/about.png" alt="about" />
+
+
         </div>
         <div class="about_R">
             <h2>About Me</h2>
@@ -87,25 +95,33 @@
             <table>
                 <tr>
                     <th>Name</th>
+                    <th>-</th>
                     <td>Saakshi</td>
                 </tr>
                 <tr>
                     <th>Email</th>
+                    <th>-</th>
                     <td>saakshibhandari27@gmail.com</td>
                 </tr>
                 <tr>
                     <th>Website</th>
-                    <td>xyz.com</td>
+                    <th>-</th>
+                    <td>https://saakshi.netlify.app
+                    </td>
                 </tr>
             </table>
+
+            <div class="div_resume">
+                <button>Download Resume</button>
+            </div>
         </div>
-    </div>
+    </a>
 
 
 
     <!-- page3 -->
 
-    <div class="real_skill">
+    <a class="real_skill" name="skill_page">
         <div class="nav_skills">
             <h2>My Skills</h2>
         </div>
@@ -114,8 +130,35 @@
         <div class="skills">
             <div class="skills_L">
                 <p>You can list your platform links here....</p>
-                <p>Link1</p>
-                <p>Link2</p>
+                <table class="skill_table">
+                    <tr>
+                        <td class="skills_td">HackerRank</td>
+                        <td class="skill_">-</td>
+                        <td class="skills_td"><a href="mailto:saakshibhandari27@gmail.com" target="_blank">http/</a></td>
+                    </tr>
+                    <tr>
+                        <td class="skills_td">LeetCode</td>
+                        <td class="skill_">-</td>
+                        <td class="skills_td"><a href="https://leetcode.com/Saakshi_27/" target="_blank">https://leetcode.com/Saakshi_27/</a></td>
+                    </tr>
+                    <tr>
+                        <td class="skills_td">CodeChef</td>
+                        <td class="skill_">-</td>
+                        <td class="skills_td"><a href="https://www.linkedin.com/in/saakshi-b6918720b/" target="_blank">click here</a></td>
+                    </tr>
+                    <tr>
+                        <td class="skills_td">HackerEarth</td>
+                        <td class="skill_">-</td>
+                        <td class="skills_td"><a href="https://leetcode.com/Saakshi_27/" target="_blank">https://leetcode.com/Saakshi_27/</a></td>
+                    </tr>
+
+                </table>
+                <div class="skill_L_img">
+                    <img src="assets/github.png" class="social_skill" />
+                    <img src="assets/linkedin.png" class="social_skill" />
+                    <img src="assets/leetcode.png" class="social_skill" />
+                    <img src="assets/HackerRank_logo.png" class="social_skill" />
+                </div>
             </div>
             <div class="skills_R">
                 <p>HTML</p>
@@ -148,12 +191,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </a>
 
 
 
     <!-- page4 -->
-    <div class="real_project">
+    <a class="real_project" name="project_page">
         <div class="heading_projects">
             <h2>My Projects</h2>
         </div>
@@ -169,11 +212,11 @@
                 <div class="p1"></div>
             </div>
         </div>
-    </div>
+    </a>
 
 
     <!-- page5 -->
-    <div class="contact">
+    <a class="contact" name="contact_page">
         <div class="contact_L">
             <h2>Contact Me</h2>
             <hr class="hr">
@@ -181,18 +224,18 @@
                 <form>
                     <tr>
                         <th> <label>Name</label></th>
-                        <td> <input type="text"></td>
+                        <td> <input type="text" placeholder="Name..." class="contact_form_input_field"></td>
                     </tr>
                     <tr>
-                        <th><label>Email</label></th>
-                        <td><input type="text"></td>
+                        <th><label>Subject</label></th>
+                        <td><input class="contact_form_input_field" type="text" placeholder="subject..."></td>
                     </tr>
                     <tr>
                         <th><label>Message</label></th>
-                        <td><textarea cols="50" rows="10"></textarea></td>
+                        <td><textarea cols="50" rows="10" placeholder="write your message here...."></textarea></td>
                     </tr>
                     <tr>
-                        <td><a href="mailto:saakshibhandari27@gmail.com" type="submit">Submit</a></td>
+                        <td><button class="contact_submit"><a href="mailto:saakshibhandari27@gmail.com" type="submit">Submit</a></button></td>
                     </tr>
                 </form>
             </table>
@@ -203,10 +246,10 @@
             <div class="contact_R_child">
                 <p>Saakshi</p>
                 <p>Dehradun, Uttarakhand</p>
-                <p>xxx@gmail.com</p>
-                <p>1123456789</p>
-                <p><b>Social Website</b></p>
+                <p>saakshibhandari27@gmail.com</p>
             </div>
+            <p id="contact_R_social"><b>Social Website</b></p>
+            <hr id="contact_social_hr">
             <div class="social">
                 <img src="assets/github.png" class="social_logos" />
                 <img src="assets/linkedin.png" class="social_logos" />
@@ -215,7 +258,7 @@
             </div>
 
         </div>
-    </div>
+    </a>
 
 </body>
 
